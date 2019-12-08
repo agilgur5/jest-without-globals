@@ -49,5 +49,5 @@ The source code is currently shorter than this README, so [take a look under the
 
 ## Credits
 
-Some inspiration for this came from [this workaround](https://github.com/facebook/jest/pull/7571#issuecomment-498634094) to avoid globals, which I had been using in projects previously.
-I wanted a package I could re-use in all my projects' tests instead of constantly having to create a helper file and map its name, and so `jest-without-globals` was born.
+Some inspiration came from [this workaround](https://github.com/facebook/jest/pull/7571#issuecomment-498634094) to avoid globals, which I had been using in projects previously.
+I wanted a package I could re-use in all my projects' tests instead of constantly having to create a helper file and map its name, and so `jest-without-globals` was born!
