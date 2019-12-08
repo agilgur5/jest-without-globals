@@ -36,7 +36,7 @@
     "changelog": "changelog-maker"
   },
   "peerDependencies": {
-    "jest": "23-24"
+    "jest": "23 - 24"
   },
   "dependencies": {},
   "devDependencies": {
