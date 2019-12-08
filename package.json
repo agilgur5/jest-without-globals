@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Explicitly import Jest globals",
   "main": "dist/index.js",
-  "module": "dist/jest-export.esm.js",
+  "module": "dist/jest-without-globals.esm.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist/"

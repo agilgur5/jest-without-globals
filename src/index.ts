@@ -14,7 +14,7 @@ const fitWG = fit // alias for it.only
 const xtestWG = xtest // alias for test.skip
 const xitWG = xit // alias for it.skip
 
-// all this renamiWG is a workaround for the TS2661 error: "Cannot re-export name that is not defined in the module"
+// all this renaming is a workaround for the TS2661 error: "Cannot re-export name that is not defined in the module"
 export { jestWG as jest }
 export { expectWG as expect }
 export { afterAllWG as afterAll }
