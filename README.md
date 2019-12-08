@@ -22,6 +22,8 @@ Explicitly import [Jest](https://github.com/facebook/jest) globals.
 
 `npm i -D jest-without-globals`
 
+_(note that `jest` is a peer dependency)_
+
 ## Usage
 
 ```typescript
