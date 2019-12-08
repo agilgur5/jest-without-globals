@@ -1,0 +1,48 @@
+{
+  "name": "jest-without-globals",
+  "version": "0.0.0",
+  "description": "Explicitly import Jest globals",
+  "main": "dist/index.js",
+  "module": "dist/jest-export.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "author": "Anton Gilgur",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/agilgur5/jest-without-globals",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agilgur5/jest-without-globals.git"
+  },
+  "bugs": {
+    "url": "https://github.com/agilgur5/jest-without-globals/issues"
+  },
+  "keywords": [
+    "jest",
+    "globals",
+    "export",
+    "import",
+    "module",
+    "explicit",
+    "test"
+  ],
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test",
+    "test:pub": "npm run build && npm pack",
+    "pub": "npm run build && npm publish",
+    "changelog": "changelog-maker"
+  },
+  "peerDependencies": {
+    "jest": "23-24"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@agilgur5/changelog-maker": "^3.0.0",
+    "@types/jest": "^24.0.23",
+    "tsdx": "github:agilgur5/tsdx#dist",
+    "typescript": "^3.5.2"
+  }
+}
