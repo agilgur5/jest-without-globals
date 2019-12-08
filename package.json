@@ -1,6 +1,6 @@
 {
   "name": "jest-without-globals",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Explicitly import Jest globals",
   "main": "dist/index.js",
   "module": "dist/jest-without-globals.esm.js",
