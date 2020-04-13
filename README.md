@@ -51,3 +51,5 @@ The source code is currently shorter than this README, so [take a look under the
 
 Some inspiration came from [this workaround](https://github.com/facebook/jest/pull/7571#issuecomment-498634094) to avoid globals, which I had been using in projects previously.
 I wanted a package I could re-use in all my projects' tests instead of constantly having to create a helper file and map its name, and so `jest-without-globals` was born!
+
+Can also see [my PR](https://github.com/facebook/jest/pull/9306) for implementing this directly in Jest. It also adds a `noJestGlobals` configuration option that would prevent these globals from being inserted into your environment as well (which is something that isn't possible with a simple user-land library like this).
