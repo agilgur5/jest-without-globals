@@ -1,3 +1,23 @@
+**Deprecation Notice**: As of [Jest 26](https://jestjs.io/blog/2020/05/05/jest-26#a-new-way-to-consume-jest---jestglobals), the [`@jest/globals` package can be used](https://jestjs.io/docs/api) to explicitly `import` Jest functions:
+
+```typescript
+import { describe, it, expect } from '@jest/globals'
+```
+
+Jest [26.5](https://github.com/jestjs/jest/blob/v29.7.0/CHANGELOG.md#2650) further added the [`injectGlobals` config](https://jestjs.io/docs/configuration#injectglobals-boolean) that you can set to `false` to disable globals in your test files:
+
+```js
+// jest.config.js
+/** @type {import('jest').Config} */
+const config = {
+  injectGlobals: false,
+};
+
+module.exports = config;
+```
+
+For versions of Jest older than 26, you can use the `jest-without-globals` package as described below:
+
 # jest-without-globals
 
 <!-- releases / versioning -->
