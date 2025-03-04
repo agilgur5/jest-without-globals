@@ -13,14 +13,14 @@
 [![typings](https://img.shields.io/npm/types/jest-without-globals.svg)](https://github.com/agilgur5/jest-without-globals/blob/master/src/index.ts)
 [![build status](https://img.shields.io/travis/agilgur5/jest-without-globals/master.svg)](https://travis-ci.org/agilgur5/jest-without-globals)
 [![code coverage](https://img.shields.io/codecov/c/gh/agilgur5/jest-without-globals/master.svg)](https://codecov.io/gh/agilgur5/jest-without-globals)
-<br>
-[![NPM](https://nodei.co/npm/jest-without-globals.png?downloads=true&downloadRank=true&stars=true)](https://npmjs.org/package/jest-without-globals)
 
 Explicitly import [Jest](https://github.com/facebook/jest) globals.
 
 ## Installation
 
-`npm i -D jest-without-globals`
+```sh
+npm i -D jest-without-globals
+```
 
 _(note that `jest` is a peer dependency)_
 
